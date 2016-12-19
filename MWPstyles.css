@@ -1,0 +1,28 @@
+*{
+	color:white;
+	font-style:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.contSec{
+	display:inline;
+	position:relative;
+}
+body{
+	background-color:black;
+	display:inline;
+	position:relative;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+#navbarBlue{
+	background-color:blue;
+}
+.rowSec1{
+	color :black;
+	background-color:darkblue;
+	padding-bottom:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:0px;
+	margin-right:0px;
+}
+

@@ -1,6 +1,12 @@
 *{
 	color:white;
-	font-style:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family:Georgia, Serif;
+}
+p{
+	font-size:20px;
+}
+li{
+	font-size:20px;
 }
 .contSec{
 	display:inline;
@@ -8,20 +14,30 @@
 }
 body{
 	background-color:black;
+	background-image:url("background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
 	display:inline;
 	position:relative;
 	padding-bottom:20px;
 	padding-top:20px;
+	padding-left:0px;
+	padding-right:0px;
 }
-#navbarBlue{
-	background-color:blue;
+#navbarColor{
+	background-color:darkgrey;
+	background-image:url("carbonFiber.jpg");
+	background-repeat:no-repeat;
+	background-size:contain;
 }
 .rowSec{
-	color :black;
+	position:relative;
 	background-color:darkblue;
+	background-image:url("secBlue.jpg");
+	background-repeat:no-repeat;
 	padding-bottom:20px;
 	margin-top:20px;
-	margin-bottom:20px;
+	margin-bottom:10px;
 	margin-left:0px;
 	margin-right:0px;
 }

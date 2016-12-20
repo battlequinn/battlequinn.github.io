@@ -17,6 +17,7 @@ body{
 	background-image:url("background.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-attachment:fixed;
 	display:inline;
 	position:relative;
 	padding-bottom:20px;
@@ -32,9 +33,8 @@ body{
 }
 .rowSec{
 	position:relative;
-	background-color:darkblue;
-	background-image:url("secBlue.jpg");
 	background-repeat:no-repeat;
+	background-color:rgba(0,0,150,.3);	
 	padding-bottom:20px;
 	margin-top:20px;
 	margin-bottom:10px;

@@ -51,13 +51,13 @@ nav{
 .rowSec{
 	background-color:rgba(0,0,150,.7);	
 }
-.rounding{
-	border-radius:50px;
-}
 .circle{
 	width:300px;
 	height:300px;
 	-moz-border-radius:50px;
 	-webkit-border-radius:50px;
 	border-radius:50px;
+}
+.img-responsive{
+	border-radius:25px;
 }

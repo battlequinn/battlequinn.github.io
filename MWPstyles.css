@@ -8,37 +8,48 @@ p{
 li{
 	font-size:20px;
 }
-.contSec{
-	display:inline;
-	position:relative;
-}
 body{
 	background-color:black;
 	background-image:url("background.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
-	display:inline;
-	position:relative;
-	padding-bottom:20px;
 	padding-top:20px;
-	padding-left:0px;
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:0px;
 	padding-right:0px;
 }
-#navbarColor{
+footer{
+	position:relative;
+	margin-top:20px;
+	padding:1em;
+	clear:left;
+	vertical-align:bottom;
+	text-align: center;
+	font-size:16px;
+	font-family: verdana ;
+    height: 50px ;
+    background-image:url("carbonFiber.jpg");
 	background-color:darkgrey;
+}
+.contSec{
+	display:inline;
+	position:relative;
+}
+nav{
 	background-image:url("carbonFiber.jpg");
-	background-repeat:no-repeat;
-	background-size:contain;
+	background-color:darkgrey;
+}
+.row{
+	position:relative;
+	padding-bottom:10px;
+	margin-top:10px;
+	margin-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
 }
 .rowSec{
-	position:relative;
-	background-repeat:no-repeat;
 	background-color:rgba(0,0,150,.3);	
-	padding-bottom:20px;
-	margin-top:20px;
-	margin-bottom:10px;
-	margin-left:0px;
-	margin-right:0px;
 }
 

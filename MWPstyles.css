@@ -22,7 +22,7 @@ body{
 }
 footer{
 	position:relative;
-	margin-top:20px;
+	margin-top:5px;
 	padding:1em;
 	clear:left;
 	vertical-align:bottom;
@@ -52,4 +52,3 @@ nav{
 .rowSec{
 	background-color:rgba(0,0,150,.3);	
 }
-

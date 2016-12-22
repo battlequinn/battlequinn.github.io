@@ -1,3 +1,27 @@
+body{
+	display:inline;
+	background-color:black;
+	background-image:url("background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+nav{
+	opacity:.9;
+}
+footer{
+	opacity:.9;
+	position:relative;
+	padding:1em;
+	vertical-align:bottom;
+	text-align: center;
+	font-size:16px;
+	font-family: verdana ;
+	color:white;
+    height: 50px ;
+	background-color:black;
+	width:100%;
+	}
 *{
 	text-shadow:2px 2px 40px #000000;
 	color:white;
@@ -17,51 +41,23 @@ p{
 li{
 	font-size:20px;
 }
-body{
-	display:inline;
-	background-color:black;
-	background-image:url("background.jpg");
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-attachment:fixed;
-}
-footer{
-	position:relative;
-	padding:1em;
-	vertical-align:bottom;
-	text-align: center;
-	font-size:16px;
-	font-family: verdana ;
-    height: 50px ;
-    background-image:url("carbonFiber.jpg");
-	background-color:darkgrey;
-	width:100%;
+ol{
+	text-align:left;
 }
 .contSec{
-	display:inline;
 	position:relative;
-}
-nav{
-	background-image:url("carbonFiber.jpg");
-	background-color:darkgrey;
+	display:inline;
+	width:80%;
 }
 .row{
-	width:100%;
+	width:80%;
 	padding:5px 10px 20px 10px;
 	margin-top:10px;
 	margin-bottom:10px;
-
 }
 .rowSec{
 	border-radius:15px;
 	background-color:rgba(25,50,150,.6);	
-}
-.circle{
-	width:300px;
-	height:300px;
-	-moz-border-radius:50px;
-	-webkit-border-radius:50px;
-	border-radius:50px;
 }
 .img-responsive{
 	border-radius:25px;
@@ -70,4 +66,5 @@ nav{
 .npButton{
 	float:center;
 	direction:ltr;
+	opacity:.9;
 }

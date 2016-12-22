@@ -1,18 +1,15 @@
 body{
-	position:relative;
-	display:inline;
 	background-color:black;
 	background-image:url("https://rusjafoster.files.wordpress.com/2013/02/img_0796.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
-	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
 }
 nav{
 	opacity:.9;
 }
 footer{
-	display:block;
 	opacity:.9;
 	position:relative;
 	padding:1em;
@@ -21,10 +18,11 @@ footer{
 	font-size:16px;
 	font-family: verdana ;
 	color:white;
-    height: 50px ;
+    height:50px;
 	background-color:black;
 	width:100%;
 	margin:0px 0px 0px 0px;
+	overflow:auto;
 	}
 *{
 	text-shadow:2px 2px 40px #000000;
@@ -49,7 +47,6 @@ ol{
 	text-align:left;
 }
 .contSec{
-	position:relative;
 	display:inline;
 	width:80%;
 }
